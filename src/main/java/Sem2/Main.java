@@ -3,8 +3,8 @@ package Sem2;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println(ex1(3, 'c', 'z')); //Задача 1
-        //        System.out.println(ex2("aaaabbbcdd"));
+        //System.out.println(ex1(3, 'c', 'z')); //Задача 1
+        System.out.println(ex2("aaaabbbcdd")); //Задача 2
 
 
     }
@@ -24,8 +24,7 @@ public class Main {
         return sb.toString();
     }
 
-
-//    Напишите метод, который сжимает строку.
+//    Задача 2: Напишите метод, который сжимает строку.
 //    Пример: вход aaaabbbcdd. -> 4a3b1c2d
     private static String ex2(String str) {
         StringBuilder new_str = new StringBuilder();
