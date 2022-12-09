@@ -1,10 +1,18 @@
 package Sem2;
 
 
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.PrintWriter;
+import java.util.logging.Logger;
+
+
 public class Main {
     public static void main(String[] args) {
         //System.out.println(ex1(3, 'c', 'z')); //Задача 1
-        System.out.println(ex2("aaaabbbcdd")); //Задача 2
+        //System.out.println(ex2("aaaabbbcdd")); //Задача 2
+
+        printIntoFileNames("C:\\Users\\Клен-М\\Desktop\\Сем2"); //Задача 3
 
 
     }
@@ -49,9 +57,27 @@ public class Main {
     }
 
 
-//    Напишите метод, который вернет содержимое текущей папки в виде массива строк.
+//    Задача 3: Напишите метод, который вернет содержимое текущей папки в виде массива строк.
 //    Напишите метод, который запишет массив, возвращенный предыдущим методом в файл.
 //    Обработайте ошибки с помощью try-catch конструкции. В случае возникновения исключения, оно должно записаться в лог-файл.
+
+    private static void printIntoFileNames(String path) {
+        StringBuilder sb = new StringBuilder();
+        String[] names = convertPathToNamesArr(path);
+        Logger logger = Logger.getLogger(path); //Разобраться с 67 строкой
+        for (String name : names) {
+            sb.append(name).append(System.lineSeparator());
+        }
+        try(PrintWriter pw  = new PrintWriter("src/main/resources/files/dir_files.txt")) {
+            pw.print(sb.toString());
+        } catch (FileNotFoundException e) {
+            logger.fine("File not fount: " + e.getMessage());
+        }
+    }
+    private static String[] convertPathToNamesArr(String path) {
+        File file = new File(path);
+        return file.list();
+    }
 
 
 
