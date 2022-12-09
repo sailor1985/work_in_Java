@@ -28,23 +28,23 @@ public class Main {
 //    Пример: вход aaaabbbcdd. -> 4a3b1c2d
     private static String ex2(String str) {
         StringBuilder new_str = new StringBuilder();
+        char prev= str.charAt(0);
+        char curr = str.charAt(0);
         int count = 1;
         for (int i = 0; i < str.length() - 1; i++) {
-            if (str.charAt(i) == str.charAt(i + 1)) {
+            curr = str.charAt(i + 1);
+            prev = str.charAt(i);
+            if (curr == prev) {
                 count++;
             }
             else {
                 new_str.append(count);
-                new_str.append(str.charAt(i));
+                new_str.append(prev);
                 count = 1;
             }
         }
-        if (count != 0) {
-            new_str.append(count);
-            new_str.charAt(str.length() - 1);
-            count = 0;
-        }
-
+        new_str.append(count);
+        new_str.append(prev);
         return new_str.toString();
     }
 
