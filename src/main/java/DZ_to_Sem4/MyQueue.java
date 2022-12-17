@@ -1,9 +1,10 @@
-package Sem4;
+package DZ_to_Sem4;
 
 import java.util.LinkedList;
+import java.util.Queue;
 
 public class MyQueue {
-    private static LinkedList<String> queue;
+    private static LinkedList<String> queue =  new LinkedList<String>();
 
     public static void main(String[] args) {
         add("hello"); //добавить в конец
@@ -12,6 +13,8 @@ public class MyQueue {
     }
 
     private static void add(String hello) {
+
+                Queue<Integer> queue = new LinkedList<Integer>();
 
     }
 
