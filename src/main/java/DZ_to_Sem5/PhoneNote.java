@@ -4,10 +4,20 @@ import java.util.*;
 
 public class PhoneNote {
     static Map<String, ArrayList<String>> phoneNote = new HashMap<>();
+
     public static void main(String[] args) {
-        System.out.println(addTelephones());
+        createPhoneNote();
+        System.out.println(addPhoneNote());
     }
 
+    //Инициализация телефонного справочника с уже имеющимися ключами - Фамилии
+    private static void createPhoneNote() {
+        phoneNote.putIfAbsent("Иванов", null);
+        phoneNote.putIfAbsent("Петров", null);
+        phoneNote.putIfAbsent("Сидоров", null);
+    }
+
+    // Метод добавления нескольких номеров телефона в ArrayList<String>
     private static ArrayList<String> addTelephones() {
         ArrayList<String> telephones = new ArrayList<>();
         Scanner scanner = new Scanner(System.in);
@@ -21,27 +31,12 @@ public class PhoneNote {
         return telephones;
     }
 
-//        telephones.add("08");
-//        telephones.add("911");
-//        telephones.add("942334");
-//        System.out.println(telephones);
-//        System.out.println(telephones.get(0));
-
-
-    private static void add1() {
-        List<String> telephones = new ArrayList<>();
-        telephones.add("08");
-        telephones.add("911");
-        telephones.add("942334");
-        System.out.println(telephones);
-        System.out.println(telephones.get(0));
-//        phoneNote.putIfAbsent("Иванов", telephones.get());
-//        phoneNote.putIfAbsent("Иванов", telephones.get(1));
-//        phoneNote.putIfAbsent("Петров", telephones.get(2));
-
-//        System.out.println(phoneNote);
+    // Добавление по ключу - Фамилии опредленного количества номеров телефонов
+    private static Map<String, ArrayList<String>> addPhoneNote() {
+        for (Map.Entry<String, ArrayList<String>> pair : phoneNote.entrySet()) {
+            System.out.printf("Ввод номеров телефонов для %s\n", pair.getKey());
+            pair.setValue(addTelephones());
+        }
+        return phoneNote;
     }
-
-
-
 }

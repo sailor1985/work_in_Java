@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e39b3689-838e-469f-a083-a1897d55f677" name="Changes" comment="Финиш задачи 1">
-      <change afterPath="$PROJECT_DIR$/src/main/java/DZ_to_Sem5/PhoneNote.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Sem5/Main_My.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Sem5/Main_Timofei.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Sem6/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Sem6/Ex001.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Sem6/Ex002.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Sem6/main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DZ_to_Sem5/PhoneNote.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DZ_to_Sem5/PhoneNote.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
