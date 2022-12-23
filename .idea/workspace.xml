@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e39b3689-838e-469f-a083-a1897d55f677" name="Changes" comment="Финиш задачи 1">
+      <change afterPath="$PROJECT_DIR$/src/main/java/DZ_to_Sem5/PhoneNote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Sem5/Main_My.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Sem5/Main_Timofei.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Sem6/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Sem6/Ex001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Sem6/Ex002.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Sem6/main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DZ_to_Sem4/MyQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DZ_to_Sem4/MyQueue.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,10 +74,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Клен-М\Work in Git\work_in_Java\src\main\java\Sem6" />
+      <recent name="C:\Users\Клен-М\Work in Git\work_in_Java\src\main\java\Sem5" />
       <recent name="C:\Users\Клен-М\Work in Git\work_in_Java\src\main\java\Sem4" />
       <recent name="C:\Users\Клен-М\Work in Git\work_in_Java\src\main\java\Sem3" />
       <recent name="C:\Users\Клен-М\Work in Git\work_in_Java\src\main\java\DZ_to_Sem2" />
-      <recent name="C:\Users\Клен-М\Work in Git\work_in_Java\src\main\java\DZ_to_Sem1" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
