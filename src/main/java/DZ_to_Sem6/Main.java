@@ -4,6 +4,7 @@ import Sem6.Cat;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -18,23 +19,31 @@ public class Main {
 
         Notebook notebook3 = new Notebook("HUAWEI MateBook", "MateBook D 14", "Intel Core i3", "Windows 11 Home", 14, 1, hardDiscList);
 
-        // cat1.descrition();
-        // cat1.printInfo();
-        Cat cat2 = new Cat(6, 2, "Степан", "Серый", "Тверская-Ямская, 5");
-        // cat2.descrition();
-        // cat2.printInfo();
-        // cat2.sleep();
-        // cat2.speak();
-        // cat2.eat();
-        Cat cat3 = new Cat(6, 2, "Богдан", "Серый", "Тверская-Ямская, 5");
+        notebook1.printInfo();
+
         ArrayList<Notebook> list = new ArrayList<>(); // cоздаем множество ноутбуков
         list.add(notebook1);
         list.add(notebook2);
         list.add(notebook3);
-        System.out.println(list);
+        System.out.println(list); //Печатаем получившийся список ноутбуков
 
-//        list.
+        // Фильтруем список по условию: диагональ ноутов > number
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Ноутбук с какой минимальной диагональю экрана вы хотели бы купить? ");
+        int number = scanner.nextInt();
+        for (Notebook note : list) {
+            if (note.getScreenDiagonal() > number) {
+                System.out.println(note);
+            }
+        }
 
-
+        // Суммируем емкости всех жестких дисков всех ноутбуков
+        for (Notebook note : list) {
+            note.getSizeHardDisc();
+        }
+        // Получаем процессоры всех ноутбуков
+        for (Notebook note : list) {
+            System.out.println(note.getProcessor());
+        }
     }
 }

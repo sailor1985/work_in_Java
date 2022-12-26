@@ -13,9 +13,6 @@ public class Notebook {
 
     private final List<HardDisc> hardDiscsList;
 
-//    private final List<Notebook> list;
-    private boolean power = false;
-
     @Override
     public String toString() {
         return String.format("firma: %s, model: %s, operatingSystem: %s, screenDiagonal: %.1f, warrantyPeriod: %d, hardDiscsList: %s", firma, model, operatingSystem, screenDiagonal, warrantyPeriod, hardDiscsList);
@@ -29,19 +26,6 @@ public class Notebook {
         this.screenDiagonal = screenDiagonal;
         this.warrantyPeriod = warrantyPeriod;
         this.hardDiscsList = hardDiscsList;
-//        this.list = list;
-    }
-
-    public void switchOn() {
-        power = true;
-    }
-
-    public void switchOff() {
-        power = false;
-    }
-
-    public String checkVirus() {
-        return "Checked";
     }
 
     public void getSizeHardDisc() {
@@ -52,28 +36,38 @@ public class Notebook {
         System.out.println(size);
     }
 
-    public void checkScreenDiagonalMore15(ArrayList<Notebook> list) {
-        for (Notebook notebook : list) {
-            if (screenDiagonal > 15) {
-                System.out.println(notebook.screenDiagonal);
-            }
-        }
+    //Получаем поле - диагональ экрана
+    public double getScreenDiagonal() {
+        return screenDiagonal;
     }
 
-//    public void weightCat() {
-//        System.out.println(weight);
-//    }
+    //Получаем поле - фирма-производитель
+    public String getFirma() {
+        return firma;
+    }
 
+    //Получаем поле - модель
+    public String getModel() {
+        return model;
+    }
 
-//    public void descrition() {
-//        System.out.println("Что умеет кот: ");
-//        sleep();
-//        eat();
-//        speak();
-//    }
+    //Получаем поле - операционная система
+    public String getOperatingSystem() {
+        return operatingSystem;
+    }
 
-//    public void printInfo() {
-//        System.out.printf("У кота %s возраст: %d, цвет: %s, вес: %s, а хозяин живет: %s\n", name, age, color, weight, ownerAdress);
-//    }
-//
+    //Получаем поле - процессор
+    public String getProcessor() {
+        return processor;
+    }
+
+    //Получаем поле - срок гарантии
+    public int getWarrantyPeriod() {
+        return warrantyPeriod;
+    }
+
+    public void printInfo() {
+        System.out.printf("У ноутбука фирма-производитель: %s, модель: %s, операционная система: %s, диагональ экрана: %.1f, процессор: %s, срок гарантии: %d, жесткие диски: %s\n", firma, model, operatingSystem, screenDiagonal, processor, warrantyPeriod, hardDiscsList);
+    }
+
 }
