@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e39b3689-838e-469f-a083-a1897d55f677" name="Changes" comment="Финиш задачи 1">
+      <change afterPath="$PROJECT_DIR$/src/main/java/DZ_to_Sem6/HardDisc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DZ_to_Sem6/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DZ_to_Sem6/Notebook.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DZ_to_Sem5/PhoneNote.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DZ_to_Sem5/PhoneNote.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
