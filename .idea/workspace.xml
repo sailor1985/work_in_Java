@@ -5,9 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e39b3689-838e-469f-a083-a1897d55f677" name="Changes" comment="Финиш задачи 1">
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/DZ_to_Sem1/My_cod/Human.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/DZ_to_Sem1/My_cod/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Sem1/Elvira_0/Human.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Sem1/Elvira_0/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Sem1/My_cod/Father.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Sem1/My_cod/Human.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Sem1/My_cod/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Sem1/Peter/Human.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Sem1/Peter/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Sem1/Peter/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/ex1/ANSIConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/ex1/Human.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/ex1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/ex1/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DZ_to_Sem6/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DZ_to_Sem6/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DZ_to_Sem6/Notebook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DZ_to_Sem6/Notebook.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +30,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="package-info" />
       </list>
     </option>
   </component>
@@ -54,26 +67,35 @@
     </option>
   </component>
   <component name="ProjectId" id="2IbGpvrpw2yYkFT4ioJjebDYOLq" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/Клен-М/Work in Git/work_in_Java/src/main/java/OOP/DZ_to_Sem1/My_cod",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Клен-М\Work in Git\work_in_Java\src\main\java\OOP\DZ_to_Sem1\My_cod" />
+      <recent name="C:\Users\Клен-М\Work in Git\work_in_Java\src\main\java\OOP\DZ_to_Sem1" />
+      <recent name="C:\Users\Клен-М\Work in Git\work_in_Java\src\main\java" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Клен-М\Work in Git\work_in_Java\src\main\java\OOP\Elvira" />
+      <recent name="C:\Users\Клен-М\Work in Git\work_in_Java\src\main\java\ООП\Sem1" />
+      <recent name="C:\Users\Клен-М\Work in Git\work_in_Java\src\main\java\ООП\Sem1\my_cod\Elvira" />
       <recent name="C:\Users\Клен-М\Work in Git\work_in_Java\src\main\java\Sem6" />
       <recent name="C:\Users\Клен-М\Work in Git\work_in_Java\src\main\java\Sem5" />
-      <recent name="C:\Users\Клен-М\Work in Git\work_in_Java\src\main\java\Sem4" />
-      <recent name="C:\Users\Клен-М\Work in Git\work_in_Java\src\main\java\Sem3" />
-      <recent name="C:\Users\Клен-М\Work in Git\work_in_Java\src\main\java\DZ_to_Sem2" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -121,6 +143,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Финиш задачи 6" />
     <MESSAGE value="Финиш задачи 1" />
     <option name="LAST_COMMIT_MESSAGE" value="Финиш задачи 1" />
