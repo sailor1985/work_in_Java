@@ -1,11 +1,10 @@
 package OOP.DZ_to_Sem1.ex3;
-
-public class Tiger extends Animal {
+public class Snake extends Animal {
     @Override
     public void attack(Human3 human) {
         if (human.getStrength() > 5) {
             human.setStrength(human.getStrength() - 5);
-            System.out.println("Тигр атакует человека по имени " + human.getName());
+            System.out.println("Змея жалит человека по имени " + human.getName());
             System.out.println("У человека по имени " + human.getName() + " осталось " +
                     human.getStrength() + " единиц энергии");
         }
