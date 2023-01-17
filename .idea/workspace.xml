@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e39b3689-838e-469f-a083-a1897d55f677" name="Changes" comment="Финиш задачи 1">
-      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/DZ_to_Sem1/ex2/Human2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/DZ_to_Sem1/ex2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/DZ_to_Sem1/ex2/TV.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/DZ_to_Sem1/ex3/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/DZ_to_Sem1/ex3/Human3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/DZ_to_Sem1/ex3/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/DZ_to_Sem1/ex3/Tiger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Sem2/ex1/Animals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Sem2/ex1/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Sem2/ex1/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Sem2/ex1/Human.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Sem2/ex1/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="package-info" />
+        <option value="Class" />
       </list>
     </option>
   </component>
