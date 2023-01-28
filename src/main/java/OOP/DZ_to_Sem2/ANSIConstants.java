@@ -1,4 +1,4 @@
-package OOP.DZ_to_Sem2.My;
+package OOP.DZ_to_Sem2;
 
 public class ANSIConstants {
     public static final String ANSI_RESET = "\u001B[0m";

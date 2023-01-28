@@ -1,4 +1,4 @@
-package OOP.DZ_to_Sem2.My;
+package OOP.DZ_to_Sem2;
 
 
 import org.jetbrains.annotations.Contract;
