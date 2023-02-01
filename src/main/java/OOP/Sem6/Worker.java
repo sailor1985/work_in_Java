@@ -15,24 +15,31 @@ class Worker {
         phoneNumber = employeeBuilder.phoneNumber;
         cabinet = employeeBuilder.cabinet;
     }
+
     public String getName() {
         return name;
     }
+
     public String getLastName() {
         return lastName;
     }
+
     public float getSalary() {
         return salary;
     }
+
     public Passport getPassport() {
         return passport;
     }
+
     public int getPhoneNumber() {
         return phoneNumber;
     }
+
     public byte getCabinet() {
         return cabinet;
     }
+
     public static class EmployeeBuilder {
         private String name;
         private String lastName;
@@ -78,16 +85,15 @@ class Worker {
             return new Worker(this);
         }
     }
-    @Override
-    public String toString() {
-        return
-                "Worker{" +
-                "name='" + name + '\'' +
-                ", lastName='" + lastName + '\'' +
-                ", salary=" + salary +
-                ", passportId=" + passport +
-                ", phoneNumber=" + phoneNumber +
-                ", cabinet=" + cabinet +
-                '}';
+        @Override
+        public String toString () {
+            String outName = name == null ? "" : "name='" + name + '\'';
+            String outLastName = lastName == null ? "" : ", lastName='" + lastName + '\'';
+            String outSalary = salary == 0 ? "" : ", salary=" + salary + '\'';
+            String outPassport = passport == null ? "" : ", passport=" + passport;
+            String outPhoneNumber = phoneNumber == 0 ? "" : ", phoneNumber=" + phoneNumber + '\'';
+            String outCabinet = cabinet == 0 ? "" : ", cabinet=" + cabinet;
+            return
+                    "Worker{" + outName + outLastName + outSalary + outPassport + outPhoneNumber + outCabinet + "}";
+        }
     }
-}

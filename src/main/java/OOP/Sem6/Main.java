@@ -1,5 +1,4 @@
 package OOP.Sem6;
-
 // Придумать как сделать гибкое создание Worker (т.е любые комбинации при создании полей)
 public class Main {
     public static void main(String[] args) {
