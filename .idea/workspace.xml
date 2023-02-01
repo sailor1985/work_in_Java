@@ -7,9 +7,9 @@
     <list default="true" id="e39b3689-838e-469f-a083-a1897d55f677" name="Changes" comment="Финиш сем 6">
       <change afterPath="$PROJECT_DIR$/untitled9/src/View/TeacherView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/OOP/Sem6/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OOP/Sem6/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/OOP/Sem6/Passport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OOP/Sem6/Passport.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/OOP/Sem6/Worker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OOP/Sem6/Worker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/OOP/DZ_to_Sem6/EmployeeBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OOP/DZ_to_Sem6/EmployeeBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/OOP/DZ_to_Sem6/Passport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OOP/DZ_to_Sem6/Passport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/OOP/DZ_to_Sem6/Worker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OOP/DZ_to_Sem6/Worker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/untitled9" beforeDir="false" afterPath="$PROJECT_DIR$/untitled9" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/untitled9/src/Service/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/untitled9/src/Service/StudentService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/untitled9/src/Service/TeacherService.java" beforeDir="false" afterPath="$PROJECT_DIR$/untitled9/src/Service/TeacherService.java" afterDir="false" />

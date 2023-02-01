@@ -35,16 +35,16 @@ class Worker {
     public byte getCabinet() {
         return cabinet;
     }
-    @Override
-    public String toString() {
-        return "Worker{" +
-                "name='" + name + '\'' +
-                ", lastName='" + lastName + '\'' +
-                ", salary=" + salary +
-                ", passport=" + passport +
-                ", phoneNumber=" + phoneNumber +
-                ", cabinet=" + cabinet +
-                '}';
+      @Override
+    public String toString () {
+        String outName = name == null ? "" : "name='" + name + '\'';
+        String outLastName = lastName == null ? "" : ", lastName='" + lastName + '\'';
+        String outSalary = salary == 0 ? "" : ", salary=" + salary + '\'';
+        String outPassport = passport == null ? "" : ", passport=" + passport;
+        String outPhoneNumber = phoneNumber == 0 ? "" : ", phoneNumber=" + phoneNumber + '\'';
+        String outCabinet = cabinet == 0 ? "" : ", cabinet=" + cabinet;
+        return
+                "Worker{" + outName + outLastName + outSalary + outPassport + outPhoneNumber + outCabinet + "}";
     }
 
 }
