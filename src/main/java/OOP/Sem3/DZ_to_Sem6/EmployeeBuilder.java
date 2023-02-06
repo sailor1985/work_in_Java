@@ -1,4 +1,4 @@
-package OOP.DZ_to_Sem6;
+package OOP.Sem3.DZ_to_Sem6;
 
 public class EmployeeBuilder {
         String name;
