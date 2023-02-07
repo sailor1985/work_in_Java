@@ -4,32 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e39b3689-838e-469f-a083-a1897d55f677" name="Changes" comment="Финиш сем 6">
-      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/DZ_to_Sem4/Controller/StudentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/DZ_to_Sem4/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/DZ_to_Sem4/Model/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/DZ_to_Sem4/Model/Teacher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/DZ_to_Sem4/Model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/DZ_to_Sem4/Repository/StudentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/DZ_to_Sem4/Repository/TeacherRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/DZ_to_Sem4/Service/StudentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/DZ_to_Sem4/Service/TeacherService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/DZ_to_Sem4/Service/impls/StudentServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/DZ_to_Sem4/Service/impls/TeacherServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/DZ_to_Sem4/StudentComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/DZ_to_Sem4/View/StudentView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/DZ_to_Sem4/students.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP_Homework2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/OOP/DZ_to_Sem6/EmployeeBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OOP/Sem3/DZ_to_Sem6/EmployeeBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/OOP/DZ_to_Sem6/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OOP/Sem3/DZ_to_Sem6/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/OOP/DZ_to_Sem6/Passport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OOP/Sem3/DZ_to_Sem6/Passport.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/OOP/DZ_to_Sem6/Worker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OOP/Sem3/DZ_to_Sem6/Worker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled10" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled9" beforeDir="false" />
-    </list>
+    <list default="true" id="e39b3689-838e-469f-a083-a1897d55f677" name="Changes" comment="Финиш сем 6" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
