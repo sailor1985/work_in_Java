@@ -6,8 +6,9 @@ import java.util.Scanner;
 public class DZ2 {
     public static void main(String[] args) {
         //Задача 1:
-        System.out.println(floatValue());
-
+        //System.out.println(floatValue());
+        //Задача 2:
+        task2();
 
     }
 
@@ -15,7 +16,6 @@ public class DZ2 {
        Реализуйте метод, который запрашивает у пользователя ввод дробного числа (типа float), и возвращает введенное значение.
        Ввод текста вместо числа не должно приводить к падению приложения, вместо этого, необходимо повторно запросить у пользователя ввод данных.
      */
-
     public static float floatValue() {
         while (true)
             try {
@@ -26,4 +26,19 @@ public class DZ2 {
                 System.out.println("Введите дробное число корректно");
             }
     }
+
+    /* Задача 2: Если необходимо, исправьте данный код */
+    public static void task2() {
+        try {
+            int[] intArray = new int[]{1,2,3,4,5,6,7,8};
+            int d = 0;
+            double caughtRes1 = intArray[7] / d;
+            System.out.println("caughtRes1 = " + caughtRes1);
+        } catch (ArithmeticException e) {
+            System.out.println("Поймано исключение: ArithmeticException\n" + "Полное описание: " + e);
+        } catch (ArrayIndexOutOfBoundsException e) {
+            System.out.println("Поймано исключение: ArrayIndexOutOfBoundsException\n " + "Полное описание: " + e);
+        }
+    }
+
 }
