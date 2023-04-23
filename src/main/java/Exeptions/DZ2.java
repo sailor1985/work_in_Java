@@ -1,6 +1,6 @@
 package Exeptions;
 
-import java.io.FileNotFoundException;
+import java.util.Arrays;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
@@ -11,7 +11,7 @@ public class DZ2 {
         //Задача 2:
         //task2();
         //Задача 3:
-        try {
+        /*try {
             Integer a = 90;
             Integer b = 3;
             System.out.println(a / b);
@@ -24,7 +24,9 @@ public class DZ2 {
             System.out.println("Указатель не может указывать на null!");
         } catch (Exception ex) {
             System.out.println("Что-то пошло не так...");
-        }
+        }*/
+        //Задача 4:
+        task4();
     }
 
     /* Задача 1:
@@ -58,9 +60,21 @@ public class DZ2 {
     public static void printSum(Integer a, Integer b) {
         System.out.println(a + b);
     }
-
-
-
-
+    /* Задача 4:
+       Разработайте программу, которая выбросит Exception, когда пользователь вводит пустую строку.
+       Пользователю должно показаться сообщение, что пустые строки вводить нельзя.*/
+    public static void task4() {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Введите строку: ");
+        String input = scanner.nextLine();
+        try {
+            if (input.isEmpty()) {
+                throw new NullPointerException("Пустые строки вводить нельзя");
+            }
+            System.out.println("Вы ввели: " + input);
+        } catch (NullPointerException e) {
+            System.out.println("Ошибка: " + e.getMessage());
+        }
+    }
 }
 
