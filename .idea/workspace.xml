@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e39b3689-838e-469f-a083-a1897d55f677" name="Changes" comment="Финиш сем 6">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Exeptions/DZ2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Exeptions/DZ2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Exeptions/Sem3/ArraySize.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Exeptions/Sem3/MyArrayDataException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Exeptions/Sem3/Sem3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Exeptions/Sem3/absentFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Exeptions/Sem3/byZero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Exeptions/Sem3/emptyArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
