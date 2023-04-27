@@ -1,105 +1,99 @@
 package Exeptions;
 
-import java.util.InputMismatchException;
+import java.io.BufferedWriter;
+import java.io.FileWriter;
 import java.util.Scanner;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+public class Finish {
+        public static void main(String[] args) {
+            // Запрашиваем у пользователя все необходимые данные
+            Scanner scanner = new Scanner(System.in);
+            System.out.println("Введите данные в следующем порядке: Фамилия Имя Отчество дата рождения номер телефона пол");
+            String input = scanner.nextLine();
+            scanner.close();
 
-public class DZ3 {
-    public static void main(String[] args) {
-//        try (Scanner sc = new Scanner(System.in)) {
-//            System.out.println("Insert int value");
-//            printValidValue(sc, "[0-9]+");
-        //System.out.print("Введите номер телефона: ");
-//            System.out.println("Insert name");
-//            printValidValue(sc, "[a-zA-Z]+");
-        System.out.print("Введите номер телефона: ");
-        Scanner scanner = new Scanner(System.in);
+            // Разделяем полученную строку на отдельные значения
+            String[] values = input.split("\\s+");
 
-        System.out.println("Успешный ввод. Ваш номер телефона: " + telephoneNumber(scanner));
+            // Проверяем количество полученных значений требуемому
+            validateValues(values);
 
-    }
-    //telephoneNumber();
+            // Проверяяем формат каждого параметра
+            String surname = validateString(values[0], "Фамилия");
+            String name = validateString(values[1], "Имя");
+            String patronymic = validateString(values[2], "Отчество");
+            String birthday = validateDate(values[3]);
+            String phoneNumber = validatePhoneNumber(values[4]);
+            String gender = validateGender(values[5]);
 
-
-    public static String floatValue() {
-        while (true)
+            // Создаем файл и записываем данные
             try {
-                System.out.print("Введите дробное число:");
-                Scanner scanner = new Scanner(System.in);
-                return scanner.next();
-            } catch (InputMismatchException e) {
-                System.out.println("Некорректный ввод! Введено не число.\n" + "Название ошибки: " + e + "\n"+ "Повторите попытку заново\n");
+                BufferedWriter writer = new BufferedWriter(new FileWriter(surname + ".txt", true));
+                writer.write(surname + " " + name + " " + patronymic+ " " + birthday + " " + phoneNumber+ " " + gender);
+                writer.newLine();
+                writer.close();
+                System.out.println("Данные успешно записаны в файл.");
+            } catch (Exception e) {
+                e.printStackTrace();
             }
-    }
+        }
 
-    public static int telephoneNumber(Scanner scanner) {
-        while (true)
-            try {
-                if (scanner.nextLine().isEmpty()) {
-                    throw new NullPointerException("Некорректный ввод! Пустые строки вводить нельзя");
-                } else if (scanner.hasNextLine()) {
-                    throw new InputMismatchException("Некорректный ввод! Введено не число");
+        // Функция проверки количества полученных значений требуемому
+        private static void validateValues (String[] values) throws ArrayIndexOutOfBoundsException {
+                try {
+                    if (values.length < 6) {
+                        throw new ArrayIndexOutOfBoundsException("Ошибка: введено меньшее количество данных, чем требуется (должно быть 6 значений)");
+                    } else if (values.length > 6) {
+                        throw new ArrayIndexOutOfBoundsException("Ошибка: введено большее количество данных, чем требуется (должно быть 6 значений)");
+                    }
+                } catch (ArrayIndexOutOfBoundsException e) {
+                    System.out.println(e.getMessage());
                 }
-                return scanner.nextInt();
-            } catch (InputMismatchException e) {
-                System.out.println(e.getMessage() + "\nНазвание ошибки: " + e + "\n"+ "Повторите попытку заново\n");
-            } catch (NullPointerException e) {
-                System.out.println(e.getMessage() + "\n"+ "Повторите попытку заново");
+        }
+
+        // Проверяем, что переданная строка состоит только из букв
+        private static String validateString(String value, String field) {
+            Pattern pattern = Pattern.compile("^[a-zA-Z]+$");
+            Matcher matcher = pattern.matcher(value);
+            if (!matcher.matches()) {
+                System.err.println("Ошибка: некорректное значение поля " + field + ".");
+                System.exit(1);
             }
+            return value;
+        }
+
+        // Проверяем, что переданная строка является корректной датой в формате dd.mm.yyyy
+        private static String validateDate(String value) {
+            Pattern pattern = Pattern.compile("^\\d{2}\\.\\d{2}\\.\\d{4}$");
+            Matcher matcher = pattern.matcher(value);
+            if (!matcher.matches()) {
+                System.err.println("Ошибка: некорректное значение поля дата рождения.");
+                System.exit(1);
+            }
+            // Проверить, что дата соответствует реальной дате
+            // ...
+            return value;
+        }
+
+        // Проверяем, что переданная строка является корректным номером телефона (целое беззнаковое число без форматирования)
+        private static String validatePhoneNumber(String value) {
+            Pattern pattern = Pattern.compile("^\\d+$");
+            Matcher matcher = pattern.matcher(value);
+            if (!matcher.matches()) {
+                System.err.println("Ошибка: некорректное значение поля номер телефона.");
+                System.exit(1);
+            }
+            return value;
+        }
+
+        // Проверяем, что переданный символ является 'f' или 'm'
+        private static String validateGender(String value) {
+            if (!value.equals("f") && !value.equals("m")) {
+                System.err.println("Ошибка: некорректное значение поля пол.");
+                System.exit(1);
+            }
+            return value;
+        }
     }
 
-    public static void fio() {
-        while (true)
-            try {
-                Scanner scanner = new Scanner(System.in);
-                System.out.print("Введите номер телефона: ");
-
-                System.out.println("Успешный ввод. Ваш номер телефона: " + scanner.nextInt());
-                break;
-            } catch (InputMismatchException e) {
-                System.out.println("Некорректныйй ввод! Введено не число." + e+ "\nПовторите попытку заново");
-            }
-    }
-
-}
-
-//    public static void requestingDataFromUser () {
-//        Scanner scanner = new Scanner(System.in);
-//        int telephoneNumber = scanner.nextInt();
-//        while (true) {
-//            try {
-//                System.out.println("Значение принято: " + telephoneNumber);
-//                break;
-//            } catch (NumberFormatException e) {
-//                System.out.println("Некорректныйй ввод! Повторите попытку заново");
-//                scanner.nextInt();
-//            }
-//        }
-
-//        while (true) {
-//
-//            try {
-//                System.out.print("Введите фамилия:");
-//                if (scanner.hasNextLine()) {
-//                    String surname = scanner.next();
-//                    System.out.println("Ваша фамилия: " + surname);
-//                } else {
-//
-//                }
-//
-//
-//                System.out.print("Введите имя: ");
-//                String name = scanner.next();
-//                System.out.println("Ваше имя: " + name);
-//
-//                System.out.print("Введите отчество: ");
-//                String middleName = scanner.next();
-//                System.out.println("Ваше отчество: " + middleName);
-//
-//                System.out.print("Введите дату рождения в формате dd.mm.yyyy:");
-//                String dateOfBirth = scanner.next();
-//                System.out.println("Ваша дата рождения: " + dateOfBirth);
-//            } catch () {
-//
-//            }
-//
-//        }
