@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class DZ2 {
     public static void main(String[] args) {
         //Задача 1:
-        //System.out.println(floatValue());
+        System.out.println(floatValue());
         //Задача 2:
         //task2();
         //Задача 3:
@@ -26,7 +26,7 @@ public class DZ2 {
             System.out.println("Что-то пошло не так...");
         }*/
         //Задача 4:
-        task4();
+        //task4();
     }
 
     /* Задача 1:

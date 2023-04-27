@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e39b3689-838e-469f-a083-a1897d55f677" name="Changes" comment="Финиш сем 6">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Exeptions/Sem3/ArraySize.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Exeptions/Sem3/MyArrayDataException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Exeptions/Sem3/Sem3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Exeptions/Sem3/absentFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Exeptions/Sem3/byZero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Exeptions/Sem3/emptyArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Exeptions/DZ3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Exeptions/Finish.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Exeptions/DZ2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Exeptions/DZ2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,6 +116,7 @@
       <option name="presentableId" value="Default" />
       <updated>1670443058038</updated>
       <workItem from="1682270752597" duration="648000" />
+      <workItem from="1682609795957" duration="21379000" />
     </task>
     <task id="LOCAL-00001" summary="Финиш задачи 6">
       <created>1670448484931</created>
